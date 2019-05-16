@@ -1,13 +1,17 @@
 nav{
-  min-height: 10%;
+  min-width: 100px;
+  max-height: 150px;
   background-color: black;
 }
 .logo{
-  width: 200px
+  width: 60%;
 }
 .redes-sociales{
-  background-color: red
+  margin-top: 100px;
 }
-.container-img{
-  background-color: red
+body{
+  background-color: gray;
+}
+.img1{
+  width: 60%
 }
