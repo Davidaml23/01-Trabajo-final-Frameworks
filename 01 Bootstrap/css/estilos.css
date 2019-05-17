@@ -1,17 +1,44 @@
 nav{
-  min-width: 100px;
-  max-height: 150px;
-  background-color: black;
+  max-height: 200px;
+  background-color: #17202a;
 }
 .logo{
-  width: 60%;
+  width: 90%;
 }
 .redes-sociales{
   margin-top: 100px;
 }
 body{
-  background-color: gray;
+  background-color: #031347;
+}
+.articulo{
+
 }
 .img1{
-  width: 60%
+  width: 100%
+}
+.container{
+  background-color: white
+}
+.coment{
+  padding-top: 15px
+}
+.menu{
+margin-top: 1%;
+margin-left: 4%;
+margin-right: 4%
+}
+@media only screen and (max-width: 993px){
+  nav{
+    max-height: 600px;
+  }
+  .logo{
+    width: 100%;
+  }
+  .redes-sociales{
+    margin-left: 15%
+  }
+  .menu{
+    margin-left: 45%;
+  }
 }
