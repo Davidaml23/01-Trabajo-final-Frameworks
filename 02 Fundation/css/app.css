@@ -1,0 +1,60 @@
+
+body{
+  background-image: url(../img/fondo.jpg);
+  background-size: contain;
+}
+h3{
+  color: white
+}
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #cc0000;
+  box-shadow: none;
+  overflow: hidden;
+  color: red;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  color:white;
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item.active {
+  color: white;
+  background-color: #660000;
+  border-color: 1px solid #1779ba;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #cc3300;
+}
+
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #cc3300;
+}
+
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus, .list-group-item[disabled], .list-group-item[disabled]:hover, .list-group-item[disabled]:focus {
+  color: #8a8a8a;
+  cursor: not-allowed;
+  background-color: #fefefe;
+}
+.button {
+  background-color: #660000;
+}
+.grid-container{
+  background-color: rgb(204, 0, 0, 0.3);
+}
+.button:hover, .button:focus.active {
+  background-color: #cc3300;
