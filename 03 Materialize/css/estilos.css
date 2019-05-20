@@ -1,0 +1,12 @@
+.nav-extended{
+  min-height: 220px
+}
+.brand-logo{
+  margin-left: 5%;
+}
+body{
+  background-image: url(../img/fondo.jpg);
+}
+.at{
+  background: white
+}

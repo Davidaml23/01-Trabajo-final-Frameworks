@@ -6,6 +6,9 @@ body{
 h3{
   color: white
 }
+h5{
+  color: white
+}
 .list-group {
   margin-bottom: 1rem;
   border: 1px solid #e6e6e6;
