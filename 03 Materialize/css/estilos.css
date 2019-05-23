@@ -3,11 +3,12 @@
   background-color: green;
 }
 .brand-logo{
+  margin-top: 1%;
   margin-left: 5%;
 }
 body{
   background-image: url(../img/fondo.jpg);
 }
-.at{
-  background: white
+.art{
+min-height: 300px;
 }
